@@ -1,2 +1,2 @@
 # react_class
- react class
+ react class 2
