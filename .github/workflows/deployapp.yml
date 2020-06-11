@@ -21,4 +21,4 @@ jobs:
       - name: installing surge
         run: npm install -g surge   
       - name: Deploying on surge
-        run: surge ./build http://apni_reactapp.surge.sh/ --token${{secrets.SURGE_TOKEN}}
+        run: surge ./build https://apni_react_class.surge.sh/ --token${{secrets.SURGE_TOKEN}}
