@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import Dinner from './dinner.js';
+import Teacher from './teacher.js';
 
 function App() {
   return (
     <div className="App">
       Hello From React App from Nameera I am goung to create Covid 19 App
-      <Dinner dishname="Salad and" sweet="Kheer"/>
+      <Teacher Tchname="Nameerah" subject="Computer" Zoomid="12345678" Zoompsd="asdfgh" />
       <hr/>
-      <Dinner dishname="Cold drink and" sweet="custured"/>
+      <Teacher Tchname="Sehrish" subject="Science"  Zoomid="09876543" Zoompsd="qwerty" />
       <hr/>
-      <Dinner dishname="Raita and" sweet="fruitchart"/>
+      <Teacher Tchname="Naila" subject="Maths" Zoomid="45678990" Zoompsd="zxcvbn" />
 
     </div>
   );
