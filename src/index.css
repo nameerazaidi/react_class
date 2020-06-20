@@ -1,15 +1,36 @@
+h2{
+  color: brown;
+  text-align: center;
+}
 .box
 { 
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(66, 57, 57);
   text-align: center;
-  border: midnightblue;
+  margin-left: 400px;
+  border-color: lightslategray;
   border-style: solid;
   padding-left: 3%;
   padding-right: 3%;
-  height: 550px;
+  height:200px;
   width: 400px;
   background-color: rgb(243, 222, 233);
 }
 
-.yellow{ background-color: gold; border-style: solid;}
-.pink{ background-color: lightcoral; border-style: solid;}
-.btn{ background-color: springgreen; border-style: solid;}
+.yellow{ background-color: gold; border-style: solid; border-radius: 5px;}
+.pink{ background-color: lightcoral; border-style: solid; border-radius: 5px;}
+.btn{ background-color: springgreen; border-style: solid;  border-radius: 5px;}
+
+.divblock{
+display: inline-block;
+padding: 10px;
+text-align: center;
+width: 400px;
+}
+.div1{
+  border-radius: 10px;
+  background-color: lightblue;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgb(66, 57, 57);
+}
+

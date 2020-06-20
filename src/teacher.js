@@ -2,7 +2,7 @@ import React from 'react';
 function Teacher(props)
 {
     return(
-        <div align="left">
+        <div className="div1">
         <b>Teacher Name:  {props.Tchname}</b>
         <br />Subject: {props.subject}
         <br />Zoom Meeting id: {props.Zoomid}
